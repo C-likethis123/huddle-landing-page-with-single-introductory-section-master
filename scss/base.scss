@@ -16,10 +16,12 @@ body {
   color: white;
   font-family: 'Open Sans', 'sans-serif';
   font-weight: 400;
+  text-align: center;
 }
 
 header {
   height: 10vh;
+  text-align: start;
 }
 
 #img {
@@ -29,7 +31,7 @@ header {
 }
 
 #content {
-  text-align: center;
+  
   height: 40vh;
 }
 
@@ -69,7 +71,6 @@ i {
 
 .attribution { 
   font-size: 0.6875rem; 
-  text-align: center;
   a { 
     color: hsl(228, 45%, 44%); 
   }

@@ -9,10 +9,12 @@ body {
   background-color: #e882e8;
   color: white;
   font-family: 'Open Sans', 'sans-serif';
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: center; }
 
 header {
-  height: 10vh; }
+  height: 10vh;
+  text-align: start; }
 
 #img {
   background: url("../images/illustration-mockups.svg") no-repeat center;
@@ -20,7 +22,6 @@ header {
   height: 30vh; }
 
 #content {
-  text-align: center;
   height: 40vh; }
 
 h1 {
@@ -46,9 +47,14 @@ button {
 #share-buttons {
   height: 10vh; }
 
+i {
+  border-radius: 50%;
+  border: 1px solid white;
+  height: fit-content;
+  padding: 10px; }
+
 .attribution {
-  font-size: 0.6875rem;
-  text-align: center; }
+  font-size: 0.6875rem; }
   .attribution a {
     color: #3e52a3; }
 
