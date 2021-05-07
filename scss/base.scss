@@ -12,7 +12,8 @@ html {
 body {
   padding: 5vh;
   height: calc(100% - 5vh);
-  background-color: $magenta;
+  background: url("../images/bg-mobile.svg") no-repeat top right $primary;
+  background-size: contain;
   color: white;
   font-family: 'Open Sans', 'sans-serif';
   font-weight: 400;
@@ -27,12 +28,11 @@ header {
 #img {
   background: url("../images/illustration-mockups.svg") no-repeat center;
   background-size: contain;
-  height: 30vh;
+  height: 40vh;
 }
 
 #content {
-  
-  height: 40vh;
+  height: 30vh;
 }
 
 h1 {
@@ -59,7 +59,7 @@ button {
 }
 
 #share-buttons {
-  height: 10vh;
+  height: 5vh;
 }
 
 i {
