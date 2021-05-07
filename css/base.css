@@ -6,9 +6,13 @@ body {
   height: calc(100% - 5vh); }
 
 #img {
-  background: url("../images/illustration-mockups.svg") no-repeat fixed center;
+  background: url("../images/illustration-mockups.svg") no-repeat center;
   background-size: contain;
   height: 100%; }
+
+h1 {
+  font-size: 1.875rem;
+  line-height: 2rem; }
 
 .attribution {
   font-size: 0.6875rem;
