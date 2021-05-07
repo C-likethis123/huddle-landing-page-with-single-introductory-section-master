@@ -3,7 +3,8 @@ html {
 
 body {
   padding: 5vh;
-  height: calc(100% - 5vh); }
+  height: calc(100% - 5vh);
+  background-color: #e882e8; }
 
 #img {
   background: url("../images/illustration-mockups.svg") no-repeat center;
@@ -13,6 +14,10 @@ body {
 h1 {
   font-size: 1.875rem;
   line-height: 2rem; }
+
+p {
+  font-size: 1rem;
+  line-height: 1.25rem; }
 
 .attribution {
   font-size: 0.6875rem;
