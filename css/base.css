@@ -6,13 +6,17 @@ body {
   height: calc(100% - 5vh);
   background-color: #e882e8; }
 
+header {
+  height: 10vh; }
+
 #img {
   background: url("../images/illustration-mockups.svg") no-repeat center;
   background-size: contain;
-  height: 100%; }
+  height: 30vh; }
 
 #content {
-  text-align: center; }
+  text-align: center;
+  height: 40vh; }
 
 h1 {
   font-size: 1.875rem;
@@ -29,6 +33,9 @@ button {
   padding: 10px 40px;
   border-radius: 20px;
   border: none; }
+
+#share-buttons {
+  height: 10vh; }
 
 .attribution {
   font-size: 0.6875rem;
