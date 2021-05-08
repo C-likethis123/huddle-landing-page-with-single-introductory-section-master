@@ -10,6 +10,8 @@
   #content {
     flex: 1;
     height: unset;
-    margin: auto 0; } }
+    margin: auto 0;
+    text-align: left;
+    padding-left: 10vh; } }
 
 /*# sourceMappingURL=desktop.css.map */
