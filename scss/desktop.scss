@@ -1,0 +1,17 @@
+@media screen and (min-width: 768px) {
+  #main {
+    display: flex;
+    height: 70vh;
+  }
+
+  #img {
+    flex: 1.5;
+    height: unset;
+  }
+
+  #content {
+    flex: 1;
+    height: unset;
+    margin: auto 0;
+  }
+}
